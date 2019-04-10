@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+	font-family: Open Sans, Arial, Helvetica; 
+	margin: 0;
+}
+
+header {
+	margin-top: 50px;
+
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.logo-wit {
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+}
+
+
+.search {
+	width: 23px;
+	float: right;
+	margin-right: 35px;
+	margin-top: -8px;
+	color: white;
+}
+
+nav {
+	height: 50px;
+	padding: 10px;
+/*	margin-top: 60px;    /* docent heeft geadviseerd om dit weg te halen, om het werkend te maken*/
+*/}
+
+
+	.navigation li {  
+		list-style: none;
+		display: inline;
+		margin-right: 50px;
+		float:left;
+		font-weight: 800;
+		color: #404041;
+		transition: 0.2s;
+	}
+
+			.navigation li:hover {
+				cursor: pointer;
+				color: #FFDF00;
+			}
+					.navigation li.profiel-btn {
+					border: 1px solid #040401;
+					border-radius: 8px;
+					padding-bottom: 10px;
+					padding-top: 10px;
+					padding-left: 25px;
+					padding-right: 25px;
+					margin-top: -13px;
+					margin-left: 380px; 
+				}
+
+						.navigation li.profiel-btn:hover {
+							background-color: #00CC99;
+							color: white;
+							border: solid 1px #00CC99;
+						}
+
+.detitel {
+	font-weight: 700;
+	font-size: 40px;
+	color: #404041;
+	text-align: center;
+	margin-bottom: -50px;
+}
+	 .beschrijving1 {
+		font-size: 16px;
+		color: #404041;
+		text-align: center;
+		font-weight: 300;
+
+		}
+			.arrow {
+				width: 100px;
+				height: auto;
+				margin-top: 60px;
+				margin-left: 625px;
+				margin-right: 625px;
+			}
+
+.overons1 {
+	float: right;
+	width: 720px;
+	height: auto;
+	margin-right: -50px;
+	padding-top: 80px;
+}
+	.beschrijving2 h2 {
+		font-weight: 600;
+		font-size: 30px;
+		color: #404041;
+		text-align: left;
+		float: left;
+		margin-top: 80px;
+		margin-left: 100px;
+	}
+
+		.beschrijving2 p {
+			font-size: 16px;
+			color: #404041;
+			text-align: left;
+			font-weight: 300;
+			float: left;
+			padding-top: 20px;
+			margin-top: -10px;
+			margin-right: 130px;
+			margin-left: 100px;
+		}
+
+.overons2 {
+	float: left;
+	width: 730px;
+	height: auto;
+	margin-left: -40px;
+	padding-top: 250px;
+}
+
+	.beschrijving3 h2 {
+		font-weight: 600;
+		font-size: 30px;
+		color: #404041;
+		text-align: right;
+		float: right;
+		margin-top: 80px;
+		margin-right: 100px;
+
+	}
+
+		.beschrijving3 p {
+			font-size: 16px;
+			color: #404041;
+			text-align: right;
+			font-weight: 300;
+			float: right;
+			padding-top: 20px;
+			margin-top: -10px;
+			margin-right: 100px;
+		}
